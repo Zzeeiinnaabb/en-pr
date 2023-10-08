@@ -1,0 +1,49 @@
+* {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#login-form .item-form form {
+    width: 35%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 50px;
+    box-shadow: 0 0px 30px 3px #e5e5e5;
+    border-radius: 25px;
+    margin-top: 95px;
+}
+
+#login-form .item-form form input {
+    width: 100%;
+    margin: 10px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: navajowhite;
+    outline: none;
+    border: 1px solid #e9e9e9;
+}
+
+#login-form .item-form form h2 {
+    text-align: center;
+}
+
+#login-form .item-form form #submit {
+    transition: 3s;
+    font-size: large;
+}
+
+#login-form .item-form form #submit:hover {
+    background-color: rgb(101, 185, 49);
+    color: rgb(242, 238, 122);
+}
+
+#login-form .item-form form input[type="submit"] {
+    cursor: pointer;
+}
